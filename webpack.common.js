@@ -48,11 +48,4 @@ module.exports = {
       filename: '[name].css',
     }),
   ],
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    port: 8080,
-    watchContentBase: true,
-    open: true,
-  },
 };
